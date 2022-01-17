@@ -86,6 +86,8 @@
             return false;
         }
     }
-    print_r(osf_abn_lookup("The Trustee for SM8A Trust", "daa3b186-571b-4177-857d-313de4c731d0") , true);
+    $abn = ''// ABN, ACN or Name
+    $guid = ''//Put here guid
+    print_r(osf_abn_lookup($abn, $guid) , true);
    
 ?>
